@@ -47,4 +47,17 @@
         6、推送代码 git push 
 
     
-    
+分支配合使用：
+    1、建立开分支   git branch 分支名
+    2、切换开分支   git checkout 分支名
+    开发分支步骤：
+      1、开发完代码
+      2、提交代码 ① git add . ② git commit -m "提交日志" ③ git push -u origin dev
+      3、切换到主分支 （master分支） git checkout master
+    主分支步骤
+      1、合并开发分支到主分支   git merge dev
+      2、推送代码到仓库里面 git push
+
+
+
+      
